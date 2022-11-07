@@ -1,0 +1,278 @@
+body {
+	background: #0b080c;
+	color: #ffffff;
+	font-family: 'QuestrialRegular';
+	font-size: 16px;
+	margin: 0;
+	min-width: 940px;
+	padding: 0;
+}
+@font-face {
+	font-family: 'QuestrialRegular';
+	src: url('../fonts/questrial-regular-webfont.eot');
+	src: url('../fonts/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/questrial-regular-webfont.woff') format('woff'),
+	url('../fonts/questrial-regular-webfont.ttf') format('truetype'),
+	url('../fonts/questrial-regular-webfont.svg#QuestrialRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+	width:250px;
+}
+#body {
+	background: #cac8c8 url(../images/bg-content2.png) repeat-x left top;
+	width: 100%;
+}
+#body div#background {
+	background: #FFFFFF url(Computer-Vision-Technology-1-1024x683.jpg) no-repeat center bottom;
+	background-size: cover;
+	min-height: 420px;
+	padding: 0;
+	width: auto;
+}
+#body div#background div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 55px 0 80px;
+	width: 940px;
+}
+#body div#background div div {
+	margin: 0;
+	padding: 0;
+	width: 570px;
+}
+#body div#background div div div {
+	padding: 61px 0 0 20px;
+	width: 520px;
+}
+#body div#background div div div h1 {
+	color: #eeb58c;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0;
+}
+#body div#background div p {
+	color: #bebebe;
+	line-height: 30px;
+	margin: 15px 0 0;
+	text-align: justify;
+}
+p a {
+	color: #bebebe;
+}
+p a:hover {
+	color: #6e6c6c;
+}
+#body div#background div div div p a:hover,
+#body div#section ul li div p a:hover,
+#body div div#content div p a:hover {
+	text-decoration: underline;
+}
+#body div#background div div.about {
+	float: left;
+	padding: 0;
+}
+#body div#background div div.about h3 {
+	color: #bebebe;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 34px 0 0;
+	text-transform: uppercase;
+}
+#body div#background div div.about h3:first-child {
+	margin: 0;
+}
+#body div#background div div.about p {
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0;
+}
+#body div#background div span {
+	color: #eeb58c;
+	display: block;
+	float: right;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 48px;
+	margin: 8px 0 0;
+	text-align: center;
+	width: 320px;
+}
+#body div#section {
+	background: #0b080c;
+	padding: 0;
+	width: 100%;
+}
+#body div ul {
+	list-style: none;
+	margin: 0 auto;
+	min-height: 400px;
+	padding: 0 0 42px;
+	width: 940px;
+}
+#body div ul li {
+	display: block;
+	height: 180px;
+	overflow: hidden;
+	padding: 24px 0 0;
+}
+#body div ul li:first-child {
+	padding: 66px 0 0;
+}
+#body div#section ul li:first-child {
+	padding: 36px 0 0;
+}
+#body div ul li a img {
+	border: 3px solid #f2f1e6;
+	display: block;
+	float: left;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1;
+}
+#body div ul li a img:hover {
+	filter: alpha(opacity=90);/* Needed for IE8 and old versions */
+	opacity: 0.9;
+}
+#body div ul li div {
+	float: right;
+	padding: 0;
+	width: 592px;
+}
+#body div#section ul li div p {
+	color: #eeb58c;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: justify;
+}
+#body div ul li div p {
+	color: #fff;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: justify;
+}
+#body div ul li div p a {
+	color: #EEB58C;
+}
+#body div ul li div a.readmore {
+	color: #585758;
+	display: inline-block;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 22px;
+	text-decoration: none;
+}
+#body div ul li div a.readmore:hover {
+	color: #b4b3b4;
+}
+#footer ul li a:hover {
+	color: #b6834f;
+}
+#body div {
+	margin: 0 auto;
+	padding: 40px 0 80px;
+	width: 940px;
+}
+#body div div.blog {
+	color: #585758;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body div div.blog a {
+	color: #585758;
+	text-decoration: none;
+}
+#body div div.blog a:hover,
+#body div div#content div a.back:hover {
+	color: #838282;
+}
+#body div div#content {
+	margin: 45px 0 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#body div div#content div:first-child {
+	float: left;
+	width: 282px;
+}
+#body div div#content div:first-child a img {
+	border: 3px solid #F2F1E6;
+	display: block;
+	margin: 0 0 37px;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1;
+}
+#body div div#content div:first-child a img:hover {
+	filter: alpha(opacity=90);/* Needed for IE8 and old versions */
+	opacity: 0.9;
+}
+#body div div#content div {
+	float: right;
+	padding: 0;
+	width: 595px; 
+}
+#body div div#content div p {
+	line-height: 30px;
+	margin: 0 0 45px;
+	text-align: justify;
+}
+#body div div#content div p a {
+	color: #ffffff;
+}
+#body div div#content div a.back {
+	color: #585758;
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 22px;
+	text-decoration: none;
+}
+#body div div#paging {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 80px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 940px;
+}
+#body div div#paging span {
+	display: inline;
+	height: auto;
+	margin: 0;
+	width: auto;
+}
+#body div div#paging span a,
+#body div div#paging ul li a {
+	color: #727272;
+	display: inline;
+	text-decoration: none;
+	text-shadow: 0 1px #e4e3e3;
+}
+#body div div#paging ul li a:hover,
+#body div div#paging span a:hover {
+	color: #949393;
+}
+#body div div#paging ul {
+	display: inline;
+	min-height: 0;
+	padding: 0;
+	width: auto;
+}
+#body div div#paging ul li {
+	display: inline;
+	padding: 0 5px;
+}
